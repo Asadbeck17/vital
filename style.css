@@ -17,7 +17,6 @@ body {
     width: 100vw;
     height: 100%;
     filter: brightness(90%);
-
     object-fit: cover;
 }
 .header{
@@ -30,7 +29,6 @@ body {
     left: 0;
     right: 0;
     filter: brightness(90%);
-
     bottom: 0;
     width: 100%;
     z-index: -1;
@@ -236,6 +234,7 @@ body {
 
 .page-3 div h2 {
     text-align: center;
+    padding: 25px;
 }
 
 .page-3 div span {
@@ -248,7 +247,7 @@ body {
     padding: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 20px;
 }
@@ -305,6 +304,7 @@ body {
     gap: 50px;
     padding: 40px;
     font-size: 28px;
+    flex-wrap: wrap;
 }
 
 .top div p {
@@ -324,6 +324,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 100px;
+    flex-wrap: wrap;
 }
 
 .recept-items-left {
@@ -379,7 +380,7 @@ body {
     flex-direction: column;
     width: 100vw;
     height: 100%;
-    padding: 100px;
+    padding: 130px;
     gap: 30px;
     font-size: 32px;
     text-align: center;
@@ -391,7 +392,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding: 70px 50px;
+    flex-wrap: wrap;
 }
 
 .product {
@@ -409,7 +411,7 @@ body {
 }
 
 .product img {
-    width: 250px;
+    width: 240px;
 }
 
 .page-6 {
@@ -509,6 +511,7 @@ body {
     gap: 30px;
     font-size: 32px;
     background-color: aquamarine;
+    flex-wrap: wrap;
 }
 
 .p7top {
@@ -518,6 +521,7 @@ body {
     align-items: center;
     padding: 50px;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .p7top div {
@@ -543,6 +547,8 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .p7icon img {
@@ -563,7 +569,106 @@ body {
     gap: 30px;
 }
 
-video {
-    width: 320px;
-    padding: 30px;
+.vd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vd video {
+    width: 40%;
+}
+
+.navigation {
+    width: 60px;
+    height: 60px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation img {
+    width: 30px;
+}
+
+.navigation:hover {
+    background-color: #3063A1;
+}
+
+.page-8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    gap: 30px;
+    font-size: 32px;
+    background-color: white;
+}
+
+.office-card {
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+    box-shadow: 0 0 10px 10px aquamarine;
+    border-radius: 10px;
+}
+
+.office-card h6 {
+    border-left: 5px solid #3063A1;
+    padding-left: 10px;
+}
+
+.info {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info span {
+    width: 250px;
+    font-weight: 600;
+}
+
+.card-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.timetable {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.timetable span {
+    font-weight: 700;
+}
+
+.down {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.location {
+    width: 100%;
+    height: 100%;
 }
